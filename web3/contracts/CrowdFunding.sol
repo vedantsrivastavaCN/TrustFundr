@@ -42,7 +42,6 @@ contract CrowdFunding {
     // to donate to a specific campaign
     function donateToCampaign(uint256 _id) public payable {
         uint256 amount = msg.value;
-
         Campaign storage campaign = campaigns[_id];
 
         campaign.donators.push(msg.sender);
