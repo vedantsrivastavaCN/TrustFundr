@@ -45,20 +45,20 @@ const CreateCampaign = () => {
       {isLoading && 'Loader...'}
       
       <div className="flex justify-center items-center p-[16px] sm:min-w-[380px] bg-[#3a3a43] rounded-[10px]">
-        <h1 className="font-epilogue font-bold sm:text-[25px] text-[18px] leading-[38px] text-white">Start a Campaign</h1>
+        <h1 className="font-epilogue font-bold sm:text-[25px] text-[18px] leading-[38px] text-white">Register your startup</h1>
       </div>
 
       <form onSubmit={handleSubmit} className="w-full mt-[65px] flex flex-col gap-[30px]">
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
-            labelName="Your Name *"
+            labelName="Founder's name *"
             placeholder="John Doe"
             inputType="text"
             value={form.name}
             handleChange={(e) => handleFormFieldChange('name', e)}
           />
           <FormField 
-            labelName="Campaign Title *"
+            labelName="Startup name *"
             placeholder="Write a title"
             inputType="text"
             value={form.title}
@@ -67,8 +67,8 @@ const CreateCampaign = () => {
         </div>
 
         <FormField 
-          labelName="Story *"
-          placeholder="Write your story"
+          labelName="Description *"
+          placeholder="What is your startup about? please be detailed"
           isTextArea
           value={form.description}
           handleChange={(e) => handleFormFieldChange('description', e)}
@@ -77,14 +77,14 @@ const CreateCampaign = () => {
         <div className="w-full flex justify-start items-center p-4 bg-[#8c6dfd] h-[120px] rounded-[10px]">
           <img src={money} alt="money" className="w-[40px] h-[40px] object-contain" />
           <h4 className="font-epilogue font-bold text-[25px] text-white ml-[20px]">
-            You will get 100% of the raised amount
+          No paperwork. No middlemen. Just pure, unstoppable blockchain trust.
           </h4>
         </div>
 
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
-            labelName="Goal *"
-            placeholder="ETH 0.50"
+            labelName="Equity Dilution *"
+            placeholder="20% for 200 ETH"
             inputType="text"
             value={form.target}
             handleChange={(e) => handleFormFieldChange('target', e)}
@@ -99,8 +99,8 @@ const CreateCampaign = () => {
         </div>
 
         <FormField 
-          labelName="Campaign Image *"
-          placeholder="Place image URL of your campaign"
+          labelName="Company LOGO *"
+          placeholder="Place image URL of your startup logo"
           inputType="url"
           value={form.image}
           handleChange={(e) => handleFormFieldChange('image', e)}
@@ -109,7 +109,7 @@ const CreateCampaign = () => {
         <div className="flex justify-center items-center mt-[40px]">
           <CustomButton 
             btnType="submit"
-            title="Submit new campaign"
+            title="Register"
             styles="bg-[#1dc071]"
           />
         </div>
