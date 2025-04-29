@@ -14,12 +14,11 @@ Unlike traditional funding platforms, TrustFundr empowers both startups and inve
 - [🚀 Getting Started](#-getting-started)
   - [📦 Install Frontend (React)](#-install-frontend-react)
   - [🔗 Deploy Smart Contracts](#-deploy-smart-contracts)
-  - [📦 Install Backend (Node.js) – Coming Soon](#-install-backend-nodejs--coming-soon)
+  - [📦 Install Backend (Node.js) ](#-install-backend-nodejs)
 - [⚠️ Disclaimers](#-disclaimers)
 
 ---
 
-## ✨ Features
 ## ✨ Features
 
 - 🛡️ **Smart Contract Based Milestone Fund Releases**  
@@ -90,7 +89,7 @@ Unlike traditional funding platforms, TrustFundr empowers both startups and inve
 │   │   ├── .env         # Backend environment variables (DB connection, secrets, etc.)
 │   │   ├── app.js       # Express server setup
 │   │   └── package.json # Backend dependencies and scripts
-│   ├── hardhat.config.js# Hardhat configuration (network, compiler, etc.)
+│   ├── hardhat.config.js # Hardhat configuration (network, compiler, etc.)
 │   ├── .env             # Backend environment variables (network, private key, etc.)
 │   ├── package.json     # Backend dependencies and scripts
 │   └── README.md        # Backend-specific documentation
@@ -181,9 +180,9 @@ npm run dev
 
 ## 📷 Screenshots
 
-![alt text](<Screenshot 2025-04-30 025640-1.png>)
-![alt text](<Screenshot 2025-04-30 025727-1.png>)
-![alt text](<Screenshot 2025-04-30 025706-1.png>)
+![Screenshot 1](<client\public\images\Screenshot 2025-04-30 025640.png>)
+![Screenshot 2](<client\public\images\Screenshot 2025-04-30 025706.png>)
+![Screenshot 3](<client\public\images\Screenshot 2025-04-30 025727.png>)
 
 ---
 
@@ -196,4 +195,5 @@ PRs are welcome. Feel free to open issues and suggestions.
 ## 👨‍💻 Author
 
 **Vedant Srivastava** – CSE @ [LNCT BHOPAL] (0103CS221442)
+**Email** - vedantsrivastava42@gmail.com
 
