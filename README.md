@@ -180,9 +180,9 @@ npm run dev
 
 ## 📷 Screenshots
 
-![Screenshot 1](<client\public\images\Screenshot 2025-04-30 025640.png>)
-![Screenshot 2](<client\public\images\Screenshot 2025-04-30 025706.png>)
-![Screenshot 3](<client\public\images\Screenshot 2025-04-30 025727.png>)
+![Screenshot 1](<client/public/images/SS1.png>)
+![Screenshot 2](<client/public/images/SS2.png>)
+![Screenshot 3](<client/public/images/SS3.png>)
 
 ---
 
